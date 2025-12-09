@@ -14,7 +14,7 @@ A custom Unix shell implementation in C providing basic shell functionality:
 
 ---
 
-### 🌟 Key Features
+### 🌟 Key Features                        
 
 * **Interactive CLI**: Custom prompt showing `user@hostname:directory`
 * **Command Parsing**: Supports pipes, redirections, operators
