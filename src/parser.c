@@ -1,5 +1,3 @@
-// ai generated code starts here
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -368,5 +366,3 @@ int parse_cmd_group(group_node** group){
     }
     return 1;
 }
-
-// ai generated code ends here

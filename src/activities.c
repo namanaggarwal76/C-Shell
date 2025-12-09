@@ -1,5 +1,3 @@
-// ai generated code starts here
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -52,5 +50,3 @@ int activities_command(arg_node* args) {
     free(sorted_jobs);
     return 1;
 }
-
-// ai generated code ends here

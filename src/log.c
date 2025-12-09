@@ -1,5 +1,3 @@
-// ai generated code starts here
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -180,5 +178,3 @@ int log_command(arg_node* args){
     
     return 1;
 }
-
-// ai generated code ends here

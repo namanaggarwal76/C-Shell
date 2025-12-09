@@ -1,5 +1,3 @@
-// ai generated code starts here
-
 #define _POSIX_C_SOURCE 200809L
 
 #include <stdio.h>
@@ -89,5 +87,3 @@ void handle_eof() {
     }   
     exit(0);
 }
-
-// ai generated code ends here

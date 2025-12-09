@@ -1,5 +1,3 @@
-// ai generated code starts here
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -97,6 +95,3 @@ int hop_command(arg_node* args){
     
     return 1;
 }
-
-
-// ai generated code ends here
