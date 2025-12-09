@@ -14,7 +14,7 @@ A custom Unix shell implementation in C providing basic shell functionality:
 
 ---
 
-### 🌟 Key Features
+### 🌟 Key Features                        
 
 * **Interactive CLI**: Custom prompt showing `user@hostname:directory`
 * **Command Parsing**: Supports pipes, redirections, operators
@@ -141,4 +141,42 @@ echo "test command"
 Sent signal 15 to process with pid 12346
 sleep 10 with pid 12346 exited normally
 ```
+
+---
+
+### ⚡ Technical Details
+
+#### Memory Management
+
+* Dynamic allocation for command structures
+* Cleanup with `free_group_list()`
+* Circular buffer for command history
+* Automatic cleanup of completed background jobs
+
+#### Process Groups
+
+* Background jobs have their own process groups
+* Foreground processes form process groups
+* Proper signal delivery
+* Terminal control management
+
+#### Error Handling
+
+* Comprehensive system call checks
+* Graceful invalid command handling
+* Proper cleanup on errors
+* User-friendly error messages
+
+#### File Descriptor Management
+
+* Proper pipe and redirection handling
+* Prevent descriptor leaks
+
+#### POSIX Compliance
+
+* POSIX system calls
+* Signal handling via `sigaction`
+* Standard file permissions (0644)
+* Compatible with Unix utilities
+
 ---
